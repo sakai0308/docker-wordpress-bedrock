@@ -2,7 +2,7 @@ version: "3"
 services:
   # WordPress(PHP7.2)
   wp:
-    build: ./wordpress
+    build: ./docker
     ports:
       - 80:80
     volumes:

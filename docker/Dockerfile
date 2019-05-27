@@ -1,4 +1,6 @@
 FROM php:7.2-apache
+COPY ./php/php.ini /usr/local/etc/php/
+COPY ./apache/*.conf /etc/apache2/sites-enabled/
 
 # composerをインストール
 RUN curl -sS https://getcomposer.org/installer | php \
