@@ -22,6 +22,7 @@ Docker内
 # 事前準備
 ```
 Docker内
+# cd bedrock
 # composer install
 ```
 
